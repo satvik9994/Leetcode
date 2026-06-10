@@ -88,7 +88,7 @@ class SegmentTree{
     
     private class Node{
         int start, end;
-        int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        int min =Integer.MAX_VALUE, max = Integer.MIN_VALUE;
         Node left, right;
 
         public Node(int start, int end){
