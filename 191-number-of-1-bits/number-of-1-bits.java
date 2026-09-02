@@ -1,5 +1,4 @@
 class Solution {
-    // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         n = n - ((n >>> 1) & 0x55555555);
         n = (n & 0x33333333) + ((n >>> 2) & 0x33333333);
